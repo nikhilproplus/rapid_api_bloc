@@ -3,7 +3,7 @@ import 'package:rapid_api_bloc/bloc/api/api_call_event.dart';
 
 import 'package:bloc/bloc.dart';
 import 'package:rapid_api_bloc/bloc/api/api_call_state.dart';
-import 'package:rapid_api_bloc/model/model.dart';
+import 'package:rapid_api_bloc/model/product_model.dart';
 import 'package:rapid_api_bloc/service/service.dart';
 
 class ApiBloc extends Bloc<ApiEvent, ApiState> {

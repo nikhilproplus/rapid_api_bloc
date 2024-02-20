@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:get/get.dart';
-import 'package:rapid_api_bloc/bloc/api/api_call_event.dart';
 
 import 'package:bloc/bloc.dart';
-import 'package:rapid_api_bloc/bloc/api/api_call_state.dart';
 import 'package:rapid_api_bloc/bloc/cart/cart_event.dart';
 import 'package:rapid_api_bloc/bloc/cart/cart_state.dart';
-import 'package:rapid_api_bloc/model/model.dart';
+import 'package:rapid_api_bloc/model/product_model.dart';
 
 class CartBloc extends Bloc<CartEvent, CartState> {
   CartBloc() : super(CartItemEmptyState()) {

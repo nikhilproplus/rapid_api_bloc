@@ -56,7 +56,7 @@ class _CartScreenState extends State<CartScreen> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    items.productTitle ?? "Untitled",
+                                    items.productTitle,
                                     style: const TextStyle(
                                       fontSize: 24,
                                       fontWeight: FontWeight.bold,
@@ -91,7 +91,7 @@ class _CartScreenState extends State<CartScreen> {
                                             context.read<CartBloc>().add(
                                                 CartItemRemovedEvent(index));
                                           },
-                                          icon: Icon(
+                                          icon: const Icon(
                                               Icons.delete_outline_outlined))
                                     ],
                                   ),

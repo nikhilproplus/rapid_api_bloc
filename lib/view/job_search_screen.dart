@@ -8,6 +8,7 @@ import 'package:rapid_api_bloc/bloc/cart/cart_bloc.dart';
 import 'package:rapid_api_bloc/bloc/cart/cart_event.dart';
 import 'package:rapid_api_bloc/view/cart_screen.dart';
 
+// incomplete 20/02/2024
 class Homepage extends StatefulWidget {
   const Homepage({super.key});
 
@@ -27,15 +28,8 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ShoeMart'),
+        title: const Text('Dev Jobs'),
         centerTitle: true,
-        actions: [
-          IconButton(
-              onPressed: () {
-                Get.to(const CartScreen());
-              },
-              icon: const Icon(Icons.shopping_cart_outlined))
-        ],
       ),
       body: BlocBuilder<ApiBloc, ApiState>(
         builder: (context, state) {

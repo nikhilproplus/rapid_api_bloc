@@ -1,4 +1,4 @@
-import 'package:rapid_api_bloc/model/model.dart';
+import 'package:rapid_api_bloc/model/product_model.dart';
 
 abstract class CartEvent {}
 

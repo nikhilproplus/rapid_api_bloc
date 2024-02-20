@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:rapid_api_bloc/bloc/api/api_call_bloc.dart';
 import 'package:rapid_api_bloc/view/homepage.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rapid_api_bloc/bloc/cart/cart_bloc.dart'; // Importing the CartBloc
+import 'package:rapid_api_bloc/bloc/cart/cart_bloc.dart'; 
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
